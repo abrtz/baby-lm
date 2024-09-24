@@ -75,7 +75,7 @@ def data_to_csv(file_path, dataset_name="abisee/cnn_dailymail", dataset_version=
     #print the total number of tokens
     tokenize_and_count(cleaned_sentences)
 
-     # Ensure the data directory exists
+    # Ensure the data directory exists
     if not os.path.exists("data"):
         os.mkdir("data")
 
