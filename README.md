@@ -17,7 +17,7 @@ The dataset used is version 1.0.0. of the CNN/DailyMail Dataset (See et al., 201
 Since the dataset is already cleaned in this repository, it is not necessary to run the `data_to_csv()` function in the first cell.
 
 The notebook can be run from the following cell onwards to train the LM:
-`df = pd.read_csv("/content/data/EN_sentences.csv")` 
+`df = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/baby-lm/data/EN_sentences.csv")` 
 
 
 ## Spanish BabyLM
