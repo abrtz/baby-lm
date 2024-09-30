@@ -1,0 +1,2946 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "row": 0,
+      "fragment": "sentence",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "What did you get?\nI got a chair.",
+      "sentence_bad": "What did you get?\nI got a teacher."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " What did you get?\nI got a chair."
+      ],
+      [
+        "",
+        " What did you get?\nI got a teacher."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -144.0292205810547,
+          false
+        ]
+      ],
+      [
+        [
+          -140.1565399169922,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -144.0292205810547,
+        false
+      ],
+      [
+        -140.1565399169922,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "row": 0,
+      "fragment": "fragment",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "A: What did you sell?\nB: A chair.",
+      "sentence_bad": "A: What did you sell?\nB: Sarah."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: What did you sell?\nB: A chair."
+      ],
+      [
+        "",
+        " A: What did you sell?\nB: Sarah."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -177.45928955078125,
+          false
+        ]
+      ],
+      [
+        [
+          -164.7640380859375,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -177.45928955078125,
+        false
+      ],
+      [
+        -164.7640380859375,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "row": 0,
+      "fragment": "sentence",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "David: What did you sell?\nSarah: I sold a chair.",
+      "sentence_bad": "David: What did you sell?\nSarah: I sold sarah."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: What did you sell?\nSarah: I sold a chair."
+      ],
+      [
+        "",
+        " David: What did you sell?\nSarah: I sold sarah."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -214.4618682861328,
+          false
+        ]
+      ],
+      [
+        [
+          -214.03053283691406,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -214.4618682861328,
+        false
+      ],
+      [
+        -214.03053283691406,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "row": 0,
+      "fragment": "sentence",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "A: What did you get?\nB: I got a piano.",
+      "sentence_bad": "A: What did you get?\nB: I got a doctor."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: What did you get?\nB: I got a piano."
+      ],
+      [
+        "",
+        " A: What did you get?\nB: I got a doctor."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -214.63430786132812,
+          false
+        ]
+      ],
+      [
+        [
+          -209.82310485839844,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -214.63430786132812,
+        false
+      ],
+      [
+        -209.82310485839844,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "row": 0,
+      "fragment": "sentence",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "David: What did you get?\nSarah: I got eggs.",
+      "sentence_bad": "David: What did you get?\nSarah: I got a doctor."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: What did you get?\nSarah: I got eggs."
+      ],
+      [
+        "",
+        " David: What did you get?\nSarah: I got a doctor."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -201.1130828857422,
+          false
+        ]
+      ],
+      [
+        [
+          -217.21128845214844,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -201.1130828857422,
+        false
+      ],
+      [
+        -217.21128845214844,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "row": 1,
+      "fragment": "sentence",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "A: What did you break?\nB: I broke a bowl.",
+      "sentence_bad": "A: What did you break?\nB: I broke a doctor."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: What did you break?\nB: I broke a bowl."
+      ],
+      [
+        "",
+        " A: What did you break?\nB: I broke a doctor."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -217.42147827148438,
+          false
+        ]
+      ],
+      [
+        [
+          -215.19720458984375,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -217.42147827148438,
+        false
+      ],
+      [
+        -215.19720458984375,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "row": 1,
+      "fragment": "fragment",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "What did you make?\nA lamp.",
+      "sentence_bad": "What did you make?\nA teacher."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " What did you make?\nA lamp."
+      ],
+      [
+        "",
+        " What did you make?\nA teacher."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -115.91276550292969,
+          false
+        ]
+      ],
+      [
+        [
+          -112.6839370727539,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -115.91276550292969,
+        false
+      ],
+      [
+        -112.6839370727539,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "row": 1,
+      "fragment": "fragment",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "What did you make?\nA lamp.",
+      "sentence_bad": "What did you make?\nSarah."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " What did you make?\nA lamp."
+      ],
+      [
+        "",
+        " What did you make?\nSarah."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -115.91276550292969,
+          false
+        ]
+      ],
+      [
+        [
+          -107.15818786621094,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -115.91276550292969,
+        false
+      ],
+      [
+        -107.15818786621094,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "row": 1,
+      "fragment": "fragment",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "David: What did you make?\nSarah: A computer.",
+      "sentence_bad": "David: What did you make?\nSarah: Sarah."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: What did you make?\nSarah: A computer."
+      ],
+      [
+        "",
+        " David: What did you make?\nSarah: Sarah."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -183.80026245117188,
+          false
+        ]
+      ],
+      [
+        [
+          -168.82679748535156,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -183.80026245117188,
+        false
+      ],
+      [
+        -168.82679748535156,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "row": 2,
+      "fragment": "fragment",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "David: What did you cook?\nSarah: Potatoes.",
+      "sentence_bad": "David: What did you cook?\nSarah: A teacher."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: What did you cook?\nSarah: Potatoes."
+      ],
+      [
+        "",
+        " David: What did you cook?\nSarah: A teacher."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -183.47645568847656,
+          false
+        ]
+      ],
+      [
+        [
+          -183.02938842773438,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -183.47645568847656,
+        false
+      ],
+      [
+        -183.02938842773438,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "row": 2,
+      "fragment": "fragment",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "David: What did you eat?\nSarah: Chicken.",
+      "sentence_bad": "David: What did you eat?\nSarah: Sarah."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: What did you eat?\nSarah: Chicken."
+      ],
+      [
+        "",
+        " David: What did you eat?\nSarah: Sarah."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -175.34486389160156,
+          false
+        ]
+      ],
+      [
+        [
+          -170.58645629882812,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -175.34486389160156,
+        false
+      ],
+      [
+        -170.58645629882812,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "row": 2,
+      "fragment": "sentence",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "A: What did you cook?\nB: I cooked chicken.",
+      "sentence_bad": "A: What did you cook?\nB: I cooked a teacher."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: What did you cook?\nB: I cooked chicken."
+      ],
+      [
+        "",
+        " A: What did you cook?\nB: I cooked a teacher."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -195.6254119873047,
+          false
+        ]
+      ],
+      [
+        [
+          -209.14169311523438,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -195.6254119873047,
+        false
+      ],
+      [
+        -209.14169311523438,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "row": 2,
+      "fragment": "fragment",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "What did you cook?\nPotatoes.",
+      "sentence_bad": "What did you cook?\nSarah."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " What did you cook?\nPotatoes."
+      ],
+      [
+        "",
+        " What did you cook?\nSarah."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -121.7369613647461,
+          false
+        ]
+      ],
+      [
+        [
+          -106.35526275634766,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -121.7369613647461,
+        false
+      ],
+      [
+        -106.35526275634766,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "row": 3,
+      "fragment": "sentence",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "What did you close?\nI closed the gate.",
+      "sentence_bad": "What did you close?\nI closed sarah."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " What did you close?\nI closed the gate."
+      ],
+      [
+        "",
+        " What did you close?\nI closed sarah."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -141.22256469726562,
+          false
+        ]
+      ],
+      [
+        [
+          -140.62408447265625,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -141.22256469726562,
+        false
+      ],
+      [
+        -140.62408447265625,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "row": 3,
+      "fragment": "sentence",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "What did you open?\nI opened the box.",
+      "sentence_bad": "What did you open?\nI opened david."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " What did you open?\nI opened the box."
+      ],
+      [
+        "",
+        " What did you open?\nI opened david."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -147.19708251953125,
+          false
+        ]
+      ],
+      [
+        [
+          -150.8836669921875,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -147.19708251953125,
+        false
+      ],
+      [
+        -150.8836669921875,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "row": 3,
+      "fragment": "sentence",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "What did you lock?\nI locked the window.",
+      "sentence_bad": "What did you lock?\nI locked a teacher."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " What did you lock?\nI locked the window."
+      ],
+      [
+        "",
+        " What did you lock?\nI locked a teacher."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -141.8695831298828,
+          false
+        ]
+      ],
+      [
+        [
+          -135.1307830810547,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -141.8695831298828,
+        false
+      ],
+      [
+        -135.1307830810547,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 16,
+    "doc": {
+      "row": 3,
+      "fragment": "fragment",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "A: What did you close?\nB: The window.",
+      "sentence_bad": "A: What did you close?\nB: David."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: What did you close?\nB: The window."
+      ],
+      [
+        "",
+        " A: What did you close?\nB: David."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -179.59588623046875,
+          false
+        ]
+      ],
+      [
+        [
+          -165.78860473632812,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -179.59588623046875,
+        false
+      ],
+      [
+        -165.78860473632812,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 17,
+    "doc": {
+      "row": 3,
+      "fragment": "fragment",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "A: What did you lock?\nB: The gate.",
+      "sentence_bad": "A: What did you lock?\nB: David."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: What did you lock?\nB: The gate."
+      ],
+      [
+        "",
+        " A: What did you lock?\nB: David."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -181.3497772216797,
+          false
+        ]
+      ],
+      [
+        [
+          -165.64353942871094,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -181.3497772216797,
+        false
+      ],
+      [
+        -165.64353942871094,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 18,
+    "doc": {
+      "row": 3,
+      "fragment": "sentence",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "David: What did you close?\nSarah: I closed the window.",
+      "sentence_bad": "David: What did you close?\nSarah: I closed sarah."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: What did you close?\nSarah: I closed the window."
+      ],
+      [
+        "",
+        " David: What did you close?\nSarah: I closed sarah."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -213.4333953857422,
+          false
+        ]
+      ],
+      [
+        [
+          -214.40306091308594,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -213.4333953857422,
+        false
+      ],
+      [
+        -214.40306091308594,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 19,
+    "doc": {
+      "row": 3,
+      "fragment": "fragment",
+      "contrast": "inanimate vs. animate",
+      "sentence_good": "David: What did you close?\nSarah: The chest.",
+      "sentence_bad": "David: What did you close?\nSarah: David."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: What did you close?\nSarah: The chest."
+      ],
+      [
+        "",
+        " David: What did you close?\nSarah: David."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -184.38787841796875,
+          false
+        ]
+      ],
+      [
+        [
+          -168.07403564453125,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -184.38787841796875,
+        false
+      ],
+      [
+        -168.07403564453125,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 20,
+    "doc": {
+      "row": 4,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "A: Who did you see?\nB: A teacher.",
+      "sentence_bad": "A: Who did you see?\nB: A car."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Who did you see?\nB: A teacher."
+      ],
+      [
+        "",
+        " A: Who did you see?\nB: A car."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -181.95672607421875,
+          false
+        ]
+      ],
+      [
+        [
+          -181.2887420654297,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -181.95672607421875,
+        false
+      ],
+      [
+        -181.2887420654297,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 21,
+    "doc": {
+      "row": 4,
+      "fragment": "sentence",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "David: Who did you see?\nSarah: I saw a teacher.",
+      "sentence_bad": "David: Who did you see?\nSarah: I saw a sofa."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: Who did you see?\nSarah: I saw a teacher."
+      ],
+      [
+        "",
+        " David: Who did you see?\nSarah: I saw a sofa."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -216.55047607421875,
+          false
+        ]
+      ],
+      [
+        [
+          -224.11398315429688,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -216.55047607421875,
+        false
+      ],
+      [
+        -224.11398315429688,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 22,
+    "doc": {
+      "row": 4,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "A: Who helped you?\nB: Sarah.",
+      "sentence_bad": "A: Who helped you?\nB: Milk."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Who helped you?\nB: Sarah."
+      ],
+      [
+        "",
+        " A: Who helped you?\nB: Milk."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -154.65003967285156,
+          false
+        ]
+      ],
+      [
+        [
+          -157.77371215820312,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -154.65003967285156,
+        false
+      ],
+      [
+        -157.77371215820312,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 23,
+    "doc": {
+      "row": 4,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "David: Who did you see?\nSarah: David.",
+      "sentence_bad": "David: Who did you see?\nSarah: A car."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: Who did you see?\nSarah: David."
+      ],
+      [
+        "",
+        " David: Who did you see?\nSarah: A car."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -171.81187438964844,
+          false
+        ]
+      ],
+      [
+        [
+          -184.29930114746094,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -171.81187438964844,
+        false
+      ],
+      [
+        -184.29930114746094,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 24,
+    "doc": {
+      "row": 4,
+      "fragment": "sentence",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "A: Who did you see?\nB: I saw a doctor.",
+      "sentence_bad": "A: Who did you see?\nB: I saw eggs."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Who did you see?\nB: I saw a doctor."
+      ],
+      [
+        "",
+        " A: Who did you see?\nB: I saw eggs."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -216.5091552734375,
+          false
+        ]
+      ],
+      [
+        [
+          -202.11068725585938,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -216.5091552734375,
+        false
+      ],
+      [
+        -202.11068725585938,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 25,
+    "doc": {
+      "row": 4,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "Who is here?\nSarah.",
+      "sentence_bad": "Who is here?\nA car."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " Who is here?\nSarah."
+      ],
+      [
+        "",
+        " Who is here?\nA car."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -102.97541809082031,
+          false
+        ]
+      ],
+      [
+        [
+          -105.7374267578125,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -102.97541809082031,
+        false
+      ],
+      [
+        -105.7374267578125,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 26,
+    "doc": {
+      "row": 4,
+      "fragment": "sentence",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "Who did you see?\nI saw a doctor.",
+      "sentence_bad": "Who did you see?\nI saw a car."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " Who did you see?\nI saw a doctor."
+      ],
+      [
+        "",
+        " Who did you see?\nI saw a car."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -150.0658721923828,
+          false
+        ]
+      ],
+      [
+        [
+          -145.09243774414062,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -150.0658721923828,
+        false
+      ],
+      [
+        -145.09243774414062,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 27,
+    "doc": {
+      "row": 4,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "Who did you meet?\nA doctor.",
+      "sentence_bad": "Who did you meet?\nA car."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " Who did you meet?\nA doctor."
+      ],
+      [
+        "",
+        " Who did you meet?\nA car."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -109.86613464355469,
+          false
+        ]
+      ],
+      [
+        [
+          -105.40391540527344,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -109.86613464355469,
+        false
+      ],
+      [
+        -105.40391540527344,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 28,
+    "doc": {
+      "row": 4,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "David: Who did you meet?\nSarah: A teacher.",
+      "sentence_bad": "David: Who did you meet?\nSarah: Eggs."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: Who did you meet?\nSarah: A teacher."
+      ],
+      [
+        "",
+        " David: Who did you meet?\nSarah: Eggs."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -180.80661010742188,
+          false
+        ]
+      ],
+      [
+        [
+          -180.5191650390625,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -180.80661010742188,
+        false
+      ],
+      [
+        -180.5191650390625,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 29,
+    "doc": {
+      "row": 5,
+      "fragment": "sentence",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "David: Who kissed you?\nSarah: A doctor kissed you.",
+      "sentence_bad": "David: Who kissed you?\nSarah: A chair kissed you."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: Who kissed you?\nSarah: A doctor kissed you."
+      ],
+      [
+        "",
+        " David: Who kissed you?\nSarah: A chair kissed you."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -201.42123413085938,
+          false
+        ]
+      ],
+      [
+        [
+          -197.2088623046875,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -201.42123413085938,
+        false
+      ],
+      [
+        -197.2088623046875,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 30,
+    "doc": {
+      "row": 5,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "Who is talking to you?\nSarah.",
+      "sentence_bad": "Who is talking to you?\nA lamp."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " Who is talking to you?\nSarah."
+      ],
+      [
+        "",
+        " Who is talking to you?\nA lamp."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -130.79049682617188,
+          false
+        ]
+      ],
+      [
+        [
+          -137.71170043945312,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -130.79049682617188,
+        false
+      ],
+      [
+        -137.71170043945312,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 31,
+    "doc": {
+      "row": 5,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "Who kissed you?\nA teacher.",
+      "sentence_bad": "Who kissed you?\nA statue."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " Who kissed you?\nA teacher."
+      ],
+      [
+        "",
+        " Who kissed you?\nA statue."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -95.46045684814453,
+          false
+        ]
+      ],
+      [
+        [
+          -99.64459228515625,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -95.46045684814453,
+        false
+      ],
+      [
+        -99.64459228515625,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 32,
+    "doc": {
+      "row": 5,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "David: Who shook your hand?\nSarah: A teacher.",
+      "sentence_bad": "David: Who shook your hand?\nSarah: A statue."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: Who shook your hand?\nSarah: A teacher."
+      ],
+      [
+        "",
+        " David: Who shook your hand?\nSarah: A statue."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -186.6967010498047,
+          false
+        ]
+      ],
+      [
+        [
+          -187.58599853515625,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -186.6967010498047,
+        false
+      ],
+      [
+        -187.58599853515625,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 33,
+    "doc": {
+      "row": 5,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "Who shook your hand?\nA doctor.",
+      "sentence_bad": "Who shook your hand?\nA statue."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " Who shook your hand?\nA doctor."
+      ],
+      [
+        "",
+        " Who shook your hand?\nA statue."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -113.00540161132812,
+          false
+        ]
+      ],
+      [
+        [
+          -117.52054595947266,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -113.00540161132812,
+        false
+      ],
+      [
+        -117.52054595947266,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 34,
+    "doc": {
+      "row": 5,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "A: Who kissed you?\nB: Sarah.",
+      "sentence_bad": "A: Who kissed you?\nB: A bowl."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Who kissed you?\nB: Sarah."
+      ],
+      [
+        "",
+        " A: Who kissed you?\nB: A bowl."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -153.77513122558594,
+          false
+        ]
+      ],
+      [
+        [
+          -166.24217224121094,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -153.77513122558594,
+        false
+      ],
+      [
+        -166.24217224121094,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 35,
+    "doc": {
+      "row": 5,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "David: Who kissed you?\nSarah: David.",
+      "sentence_bad": "David: Who kissed you?\nSarah: A chair."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: Who kissed you?\nSarah: David."
+      ],
+      [
+        "",
+        " David: Who kissed you?\nSarah: A chair."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -153.84918212890625,
+          false
+        ]
+      ],
+      [
+        [
+          -169.69073486328125,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -153.84918212890625,
+        false
+      ],
+      [
+        -169.69073486328125,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 36,
+    "doc": {
+      "row": 6,
+      "fragment": "sentence",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "David: Who is sleeping?\nSarah: David is sleeping.",
+      "sentence_bad": "David: Who is sleeping?\nSarah: Milk is sleeping."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: Who is sleeping?\nSarah: David is sleeping."
+      ],
+      [
+        "",
+        " David: Who is sleeping?\nSarah: Milk is sleeping."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -192.360595703125,
+          false
+        ]
+      ],
+      [
+        [
+          -194.19430541992188,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -192.360595703125,
+        false
+      ],
+      [
+        -194.19430541992188,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 37,
+    "doc": {
+      "row": 6,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "Who is sleeping?\nDavid.",
+      "sentence_bad": "Who is sleeping?\nEggs."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " Who is sleeping?\nDavid."
+      ],
+      [
+        "",
+        " Who is sleeping?\nEggs."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -102.9104995727539,
+          false
+        ]
+      ],
+      [
+        [
+          -129.34197998046875,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -102.9104995727539,
+        false
+      ],
+      [
+        -129.34197998046875,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 38,
+    "doc": {
+      "row": 6,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "David: Who is sleeping?\nSarah: Sarah.",
+      "sentence_bad": "David: Who is sleeping?\nSarah: A chair."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: Who is sleeping?\nSarah: Sarah."
+      ],
+      [
+        "",
+        " David: Who is sleeping?\nSarah: A chair."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -166.22865295410156,
+          false
+        ]
+      ],
+      [
+        [
+          -181.35723876953125,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -166.22865295410156,
+        false
+      ],
+      [
+        -181.35723876953125,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 39,
+    "doc": {
+      "row": 6,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "A: Who is sleeping?\nB: A teacher.",
+      "sentence_bad": "A: Who is sleeping?\nB: A book."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Who is sleeping?\nB: A teacher."
+      ],
+      [
+        "",
+        " A: Who is sleeping?\nB: A book."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -179.55007934570312,
+          false
+        ]
+      ],
+      [
+        [
+          -181.01805114746094,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -179.55007934570312,
+        false
+      ],
+      [
+        -181.01805114746094,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 40,
+    "doc": {
+      "row": 7,
+      "fragment": "sentence",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "A: Who is playing the guitar?\nB: A doctor is playing the guitar.",
+      "sentence_bad": "A: Who is playing the guitar?\nB: A piano is playing the guitar."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Who is playing the guitar?\nB: A doctor is playing the guitar."
+      ],
+      [
+        "",
+        " A: Who is playing the guitar?\nB: A piano is playing the guitar."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -269.03668212890625,
+          false
+        ]
+      ],
+      [
+        [
+          -260.3403625488281,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -269.03668212890625,
+        false
+      ],
+      [
+        -260.3403625488281,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 41,
+    "doc": {
+      "row": 7,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "A: Who painted that picture?\nB: David.",
+      "sentence_bad": "A: Who painted that picture?\nB: Milk."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Who painted that picture?\nB: David."
+      ],
+      [
+        "",
+        " A: Who painted that picture?\nB: Milk."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -165.43502807617188,
+          false
+        ]
+      ],
+      [
+        [
+          -167.31871032714844,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -165.43502807617188,
+        false
+      ],
+      [
+        -167.31871032714844,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 42,
+    "doc": {
+      "row": 7,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "David: Who is playing the guitar?\nSarah: Sarah.",
+      "sentence_bad": "David: Who is playing the guitar?\nSarah: A sofa."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: Who is playing the guitar?\nSarah: Sarah."
+      ],
+      [
+        "",
+        " David: Who is playing the guitar?\nSarah: A sofa."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -193.9131317138672,
+          false
+        ]
+      ],
+      [
+        [
+          -211.0692138671875,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -193.9131317138672,
+        false
+      ],
+      [
+        -211.0692138671875,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 43,
+    "doc": {
+      "row": 7,
+      "fragment": "fragment",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "Who is drawing?\nDavid.",
+      "sentence_bad": "Who is drawing?\nEggs."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " Who is drawing?\nDavid."
+      ],
+      [
+        "",
+        " Who is drawing?\nEggs."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -100.5599136352539,
+          false
+        ]
+      ],
+      [
+        [
+          -127.50585174560547,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -100.5599136352539,
+        false
+      ],
+      [
+        -127.50585174560547,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 44,
+    "doc": {
+      "row": 7,
+      "fragment": "sentence",
+      "contrast": "animate vs. inanimate",
+      "sentence_good": "David: Who is drawing?\nSarah: A teacher is drawing.",
+      "sentence_bad": "David: Who is drawing?\nSarah: A car is drawing."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: Who is drawing?\nSarah: A teacher is drawing."
+      ],
+      [
+        "",
+        " David: Who is drawing?\nSarah: A car is drawing."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -202.7835693359375,
+          false
+        ]
+      ],
+      [
+        [
+          -204.42933654785156,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -202.7835693359375,
+        false
+      ],
+      [
+        -204.42933654785156,
+        false
+      ]
+    ],
+    "acc": 1.0
+  },
+  {
+    "doc_id": 45,
+    "doc": {
+      "row": 8,
+      "fragment": "sentence",
+      "contrast": "loc vs. NP",
+      "sentence_good": "A: Where did you send the package?\nB: I sent the package to the next town over.",
+      "sentence_bad": "A: Where did you send the package?\nB: I sent the package a computer."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Where did you send the package?\nB: I sent the package to the next town over."
+      ],
+      [
+        "",
+        " A: Where did you send the package?\nB: I sent the package a computer."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -325.669677734375,
+          false
+        ]
+      ],
+      [
+        [
+          -276.8956298828125,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -325.669677734375,
+        false
+      ],
+      [
+        -276.8956298828125,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 46,
+    "doc": {
+      "row": 8,
+      "fragment": "sentence",
+      "contrast": "loc vs. NP",
+      "sentence_good": "Where did you send the package?\nI sent the package to europe.",
+      "sentence_bad": "Where did you send the package?\nI sent the package eggs."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " Where did you send the package?\nI sent the package to europe."
+      ],
+      [
+        "",
+        " Where did you send the package?\nI sent the package eggs."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -234.63522338867188,
+          false
+        ]
+      ],
+      [
+        [
+          -194.62046813964844,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -234.63522338867188,
+        false
+      ],
+      [
+        -194.62046813964844,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 47,
+    "doc": {
+      "row": 8,
+      "fragment": "sentence",
+      "contrast": "loc vs. NP",
+      "sentence_good": "A: Where did you go?\nB: I went across the country.",
+      "sentence_bad": "A: Where did you go?\nB: I went a book."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Where did you go?\nB: I went across the country."
+      ],
+      [
+        "",
+        " A: Where did you go?\nB: I went a book."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -222.56338500976562,
+          false
+        ]
+      ],
+      [
+        [
+          -206.6668243408203,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -222.56338500976562,
+        false
+      ],
+      [
+        -206.6668243408203,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 48,
+    "doc": {
+      "row": 8,
+      "fragment": "fragment",
+      "contrast": "loc vs. NP",
+      "sentence_good": "David: Where did you go?\nSarah: To the next town over.",
+      "sentence_bad": "David: Where did you go?\nSarah: Milk."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: Where did you go?\nSarah: To the next town over."
+      ],
+      [
+        "",
+        " David: Where did you go?\nSarah: Milk."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -230.98989868164062,
+          false
+        ]
+      ],
+      [
+        [
+          -168.31808471679688,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -230.98989868164062,
+        false
+      ],
+      [
+        -168.31808471679688,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 49,
+    "doc": {
+      "row": 8,
+      "fragment": "fragment",
+      "contrast": "loc vs. NP",
+      "sentence_good": "A: Where did you travel to?\nB: To the other side of town.",
+      "sentence_bad": "A: Where did you travel to?\nB: A car."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Where did you travel to?\nB: To the other side of town."
+      ],
+      [
+        "",
+        " A: Where did you travel to?\nB: A car."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -254.41943359375,
+          false
+        ]
+      ],
+      [
+        [
+          -194.48899841308594,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -254.41943359375,
+        false
+      ],
+      [
+        -194.48899841308594,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 50,
+    "doc": {
+      "row": 8,
+      "fragment": "sentence",
+      "contrast": "loc vs. NP",
+      "sentence_good": "David: Where did you send the package?\nSarah: I sent the package across the country.",
+      "sentence_bad": "David: Where did you send the package?\nSarah: I sent the package a sofa."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: Where did you send the package?\nSarah: I sent the package across the country."
+      ],
+      [
+        "",
+        " David: Where did you send the package?\nSarah: I sent the package a sofa."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -293.0298767089844,
+          false
+        ]
+      ],
+      [
+        [
+          -283.8304748535156,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -293.0298767089844,
+        false
+      ],
+      [
+        -283.8304748535156,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 51,
+    "doc": {
+      "row": 8,
+      "fragment": "fragment",
+      "contrast": "loc vs. NP",
+      "sentence_good": "Where did you send the package?\nTo california.",
+      "sentence_bad": "Where did you send the package?\nMilk."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " Where did you send the package?\nTo california."
+      ],
+      [
+        "",
+        " Where did you send the package?\nMilk."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -170.82998657226562,
+          false
+        ]
+      ],
+      [
+        [
+          -153.13385009765625,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -170.82998657226562,
+        false
+      ],
+      [
+        -153.13385009765625,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 52,
+    "doc": {
+      "row": 8,
+      "fragment": "fragment",
+      "contrast": "loc vs. NP",
+      "sentence_good": "A: Where are you headed?\nB: Across the country.",
+      "sentence_bad": "A: Where are you headed?\nB: Eggs."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Where are you headed?\nB: Across the country."
+      ],
+      [
+        "",
+        " A: Where are you headed?\nB: Eggs."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -204.4011993408203,
+          false
+        ]
+      ],
+      [
+        [
+          -179.0938720703125,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -204.4011993408203,
+        false
+      ],
+      [
+        -179.0938720703125,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 53,
+    "doc": {
+      "row": 8,
+      "fragment": "fragment",
+      "contrast": "loc vs. NP",
+      "sentence_good": "A: Where did you drive to?\nB: To the next town over.",
+      "sentence_bad": "A: Where did you drive to?\nB: A chair."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Where did you drive to?\nB: To the next town over."
+      ],
+      [
+        "",
+        " A: Where did you drive to?\nB: A chair."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -239.62139892578125,
+          false
+        ]
+      ],
+      [
+        [
+          -189.0550079345703,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -239.62139892578125,
+        false
+      ],
+      [
+        -189.0550079345703,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 54,
+    "doc": {
+      "row": 8,
+      "fragment": "fragment",
+      "contrast": "loc vs. NP",
+      "sentence_good": "Where are you headed?\nAcross the country.",
+      "sentence_bad": "Where are you headed?\nA computer."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " Where are you headed?\nAcross the country."
+      ],
+      [
+        "",
+        " Where are you headed?\nA computer."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -143.9483184814453,
+          false
+        ]
+      ],
+      [
+        [
+          -110.83641052246094,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -143.9483184814453,
+        false
+      ],
+      [
+        -110.83641052246094,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 55,
+    "doc": {
+      "row": 8,
+      "fragment": "sentence",
+      "contrast": "loc vs. NP",
+      "sentence_good": "A: Where did you travel to?\nB: I traveled to europe.",
+      "sentence_bad": "A: Where did you travel to?\nB: I traveled eggs."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Where did you travel to?\nB: I traveled to europe."
+      ],
+      [
+        "",
+        " A: Where did you travel to?\nB: I traveled eggs."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -247.34266662597656,
+          false
+        ]
+      ],
+      [
+        [
+          -210.5442657470703,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -247.34266662597656,
+        false
+      ],
+      [
+        -210.5442657470703,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 56,
+    "doc": {
+      "row": 9,
+      "fragment": "sentence",
+      "contrast": "loc vs. NP",
+      "sentence_good": "Where did you find it?\nI found it under the papers.",
+      "sentence_bad": "Where did you find it?\nI found it a car."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " Where did you find it?\nI found it under the papers."
+      ],
+      [
+        "",
+        " Where did you find it?\nI found it a car."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -187.9926300048828,
+          false
+        ]
+      ],
+      [
+        [
+          -162.36141967773438,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -187.9926300048828,
+        false
+      ],
+      [
+        -162.36141967773438,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 57,
+    "doc": {
+      "row": 9,
+      "fragment": "sentence",
+      "contrast": "loc vs. NP",
+      "sentence_good": "A: Where did you put it?\nB: I put it on the table.",
+      "sentence_bad": "A: Where did you put it?\nB: I put it a sofa."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Where did you put it?\nB: I put it on the table."
+      ],
+      [
+        "",
+        " A: Where did you put it?\nB: I put it a sofa."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -252.96377563476562,
+          false
+        ]
+      ],
+      [
+        [
+          -242.86508178710938,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -252.96377563476562,
+        false
+      ],
+      [
+        -242.86508178710938,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 58,
+    "doc": {
+      "row": 9,
+      "fragment": "fragment",
+      "contrast": "loc vs. NP",
+      "sentence_good": "David: Where did you put it?\nSarah: Behind the sofa.",
+      "sentence_bad": "David: Where did you put it?\nSarah: Eggs."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: Where did you put it?\nSarah: Behind the sofa."
+      ],
+      [
+        "",
+        " David: Where did you put it?\nSarah: Eggs."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -219.9422607421875,
+          false
+        ]
+      ],
+      [
+        [
+          -194.6037139892578,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -219.9422607421875,
+        false
+      ],
+      [
+        -194.6037139892578,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 59,
+    "doc": {
+      "row": 9,
+      "fragment": "fragment",
+      "contrast": "loc vs. NP",
+      "sentence_good": "A: Where did you leave it?\nB: Next to the bush.",
+      "sentence_bad": "A: Where did you leave it?\nB: A book."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Where did you leave it?\nB: Next to the bush."
+      ],
+      [
+        "",
+        " A: Where did you leave it?\nB: A book."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -226.22909545898438,
+          false
+        ]
+      ],
+      [
+        [
+          -193.43865966796875,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -226.22909545898438,
+        false
+      ],
+      [
+        -193.43865966796875,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 60,
+    "doc": {
+      "row": 9,
+      "fragment": "sentence",
+      "contrast": "loc vs. NP",
+      "sentence_good": "David: Where did you leave it?\nSarah: I left it behind the sofa.",
+      "sentence_bad": "David: Where did you leave it?\nSarah: I left it a book."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " David: Where did you leave it?\nSarah: I left it behind the sofa."
+      ],
+      [
+        "",
+        " David: Where did you leave it?\nSarah: I left it a book."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -258.2264709472656,
+          false
+        ]
+      ],
+      [
+        [
+          -237.6266632080078,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -258.2264709472656,
+        false
+      ],
+      [
+        -237.6266632080078,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 61,
+    "doc": {
+      "row": 9,
+      "fragment": "sentence",
+      "contrast": "loc vs. NP",
+      "sentence_good": "Where did you put it?\nI put it next to the bush.",
+      "sentence_bad": "Where did you put it?\nI put it a piano."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " Where did you put it?\nI put it next to the bush."
+      ],
+      [
+        "",
+        " Where did you put it?\nI put it a piano."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -195.02723693847656,
+          false
+        ]
+      ],
+      [
+        [
+          -172.61941528320312,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -195.02723693847656,
+        false
+      ],
+      [
+        -172.61941528320312,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 62,
+    "doc": {
+      "row": 9,
+      "fragment": "fragment",
+      "contrast": "loc vs. NP",
+      "sentence_good": "A: Where did you leave it?\nB: Behind the sofa.",
+      "sentence_bad": "A: Where did you leave it?\nB: A table."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " A: Where did you leave it?\nB: Behind the sofa."
+      ],
+      [
+        "",
+        " A: Where did you leave it?\nB: A table."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -216.6603546142578,
+          false
+        ]
+      ],
+      [
+        [
+          -195.5307159423828,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -216.6603546142578,
+        false
+      ],
+      [
+        -195.5307159423828,
+        false
+      ]
+    ],
+    "acc": 0.0
+  },
+  {
+    "doc_id": 63,
+    "doc": {
+      "row": 9,
+      "fragment": "sentence",
+      "contrast": "loc vs. NP",
+      "sentence_good": "Where did you find it?\nI found it on the table.",
+      "sentence_bad": "Where did you find it?\nI found it eggs."
+    },
+    "target": 0,
+    "arguments": [
+      [
+        "",
+        " Where did you find it?\nI found it on the table."
+      ],
+      [
+        "",
+        " Where did you find it?\nI found it eggs."
+      ]
+    ],
+    "resps": [
+      [
+        [
+          -188.4012451171875,
+          false
+        ]
+      ],
+      [
+        [
+          -156.75930786132812,
+          false
+        ]
+      ]
+    ],
+    "filtered_resps": [
+      [
+        -188.4012451171875,
+        false
+      ],
+      [
+        -156.75930786132812,
+        false
+      ]
+    ],
+    "acc": 0.0
+  }
+]
