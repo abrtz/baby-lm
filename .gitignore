@@ -4,3 +4,6 @@
 .DS_Store?
 old/
 model/
+en_model_folder/
+en_tokenizer_folder/
+evaluation-pipeline-2024-main/
