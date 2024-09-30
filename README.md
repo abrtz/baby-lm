@@ -34,8 +34,8 @@ After training the model, check whether the model trained with the Fill Mask Pip
 The evaluation on BLiMP and EWoK is done following the Evaluation Pipeline of the 2024 BabyLM challenge: (https://github.com/babylm/evaluation-pipeline-2024?tab=readme-ov-file)
 
 Download the evaluation repository and update both scripts (`eval_blimp.sh` and `eval_ewok.sh`) with:
- change --model hf to --model hf-mlm
- change backend="causal" to backend="mlm"
+ change `--model hf` to `--model hf-mlm`
+ change `backend="causal"` to `backend="mlm"`
 
 Run each evaluation the terminal from the root directory of the evaluation repository (`evaluation-pipeline-2024`):
 
