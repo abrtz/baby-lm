@@ -7,3 +7,6 @@ model/
 en_model_folder/
 en_tokenizer_folder/
 evaluation-pipeline-2024-main/
+es_model_folder/
+es_tokenizer_folder/
+results.py

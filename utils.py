@@ -3,16 +3,18 @@ import pandas as pd
 import nltk
 import os
 
-def preprocess(text, punctuation_marks):
+def preprocess(text, punctuation_marks,new_char=''):
     """Remove the punctuation specified by the user.
     Return the same string without the unwanted characters.
 
     Parameters:
     - 'text' (str): string to process and remove characters from.
-    - 'punctuation marks' (list): characters to be removed. It can be any number of characters."""
+    - 'punctuation marks' (list): characters to be removed. It can be any number of characters.
+    - 'new_char' (str): character that will replace the punctuation marks.
+    """
 
     for character in punctuation_marks: #iterating over the characters given in the parameter list 'punctuation_marks'
-        text = text.replace(character, '') #the characters given will be removed from the string by replacing them with empty strings ''
+        text = text.replace(character, new_char) #the characters given will be removed from the string by replacing them with empty strings ''
     preprocessesed_text = text #assigning the variable text to a new variable so that it returns the text with all the instances of the punctuation marks removed.
     return preprocessesed_text
 
@@ -34,7 +36,7 @@ def tokenize_and_count(sentences):
 
     print(f"Total number of tokens: {total_tokens}")
 
-def data_to_csv(file_path, dataset_name="abisee/cnn_dailymail", dataset_version="1.0.0", dataset_split="train[:10000]", remove_chars=None):
+def data_to_csv(file_path, dataset_name="abisee/cnn_dailymail", dataset_version="1.0.0", dataset_split="train[:10000]", remove_chars=None, lang ='en'):
     """
     Load a portion of a specified dataset version, process the articles by splitting them into sentences,
     clean the sentences by passing characters, count the total tokens in dataset,
@@ -56,22 +58,41 @@ def data_to_csv(file_path, dataset_name="abisee/cnn_dailymail", dataset_version=
     # Convert dataset to DataFrame
     df = pd.DataFrame(ds)
 
-    # Separating sentences
-    df['sentences'] = df['article'].apply(nltk.sent_tokenize)
-    print("Articles separated into sentences")
+    if lang == 'en':
+        # Separating sentences
+        df['sentences'] = df['article'].apply(nltk.sent_tokenize)
+        print("Articles separated into sentences")
 
-    # Making a single list of all the sentences in each article
-    sentences = sum(df['sentences'].tolist(), [])
+        # Making a single list of all the sentences in each article
+        sentences = sum(df['sentences'].tolist(), [])
 
-    # Removing specified characters for cleaner text
-    if remove_chars is None:
-        remove_chars = []  # set to an empty list if no characters are specified
-        cleaned_sentences = sentences
+        # Removing specified characters for cleaner text
+        if remove_chars is None:
+            remove_chars = []  # set to an empty list if no characters are specified
+            cleaned_sentences = sentences
+        
+        else:
+            cleaned_sentences = [preprocess(sent, remove_chars) for sent in sentences]
+        print(f"Removed specified characters from sentences: {remove_chars}")
+
+    else: #ES
+        # Separating sentences
+        df['body'] = df['body'].astype(str)
+        df['sentences'] = df['body'].apply(nltk.sent_tokenize)
+        print("Articles separated into sentences")
+
+        # Making a single list of all the sentences in each article
+        sentences = sum(df['sentences'].tolist(), [])
+
+        # Removing specified characters for cleaner text
+        if remove_chars is None:
+            remove_chars = []  # set to an empty list if no characters are specified
+            cleaned_sentences = sentences
+        
+        else:
+            cleaned_sentences = [preprocess(sent, remove_chars, new_char=' ') for sent in sentences] #since the dataset contains new line characters, replace with a space.
+        print(f"Removed specified characters from sentences: {remove_chars}")
     
-    else:
-        cleaned_sentences = [preprocess(sent, remove_chars) for sent in sentences]
-    print(f"Removed specified characters from sentences: {remove_chars}")
-
     #print the total number of tokens
     tokenize_and_count(cleaned_sentences)
 
@@ -81,5 +102,5 @@ def data_to_csv(file_path, dataset_name="abisee/cnn_dailymail", dataset_version=
 
     # Convert the list into a df and save to csv file
     df = pd.DataFrame(cleaned_sentences, columns=["sentences"])
-    df.to_csv(f"data/{file_path}", index=False, encoding='utf-8')
+    df.to_csv(f"{file_path}", index=False, encoding='utf-8')
     print(f"Data saved to {file_path}")
