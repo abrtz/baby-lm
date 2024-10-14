@@ -10,3 +10,4 @@ evaluation-pipeline-2024-main/
 es_model_folder/
 es_tokenizer_folder/
 results.py
+results/
