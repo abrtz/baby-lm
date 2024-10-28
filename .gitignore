@@ -3,11 +3,10 @@
 .DS_Store
 .DS_Store?
 old/
-model/
 en_model_folder/
+es_model_folder/
 evaluation-pipeline-2024-main/
 evaluation-pipeline-2024-main-ES/
-es_model_folder/
 results/
 ewok-main/
 data/es-ewok/material-dinamico.jsonl
