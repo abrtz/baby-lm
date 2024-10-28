@@ -16,4 +16,7 @@ data/es-ewok/social-relaciones.jsonl
 data/es-ewok/testsuite-material_dinamico.csv
 data/es-ewok/testsuite-material_propiedades.csv
 data/es-ewok/testsuite-social_relaciones.csv
+data/es-ewok/template-material_dinamico.csv  
+data/es-ewok/template-material_propiedades.csv
+data/es-ewok/template-social_relaciones.csv
 
