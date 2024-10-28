@@ -86,7 +86,7 @@ Given the performance of the English model, the following categories are created
 
 The datasets are created following the EWoK paper (Ivanova et al., 2024) and tutorial (https://github.com/ewok-core/ewok/tree/main)
 
-The files are provided in a password-protected zip following the recommendation of the authors. The password is the same as the original EWoK password-protected datasets (i.e., ewok). 
+The files and templates are provided under the `data/es-ewok` directory in password-protected zips following the recommendation of the authors. The password is the same as the original EWoK password-protected datasets (i.e., ewok). 
 
 Note: Due to the same reason, only the final files are provided and not the templates created with the tutorial.
 
