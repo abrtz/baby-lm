@@ -92,8 +92,6 @@ The datasets are created following the EWoK paper (Ivanova et al., 2024) and tut
 
 The files and templates are provided under the `data/es-ewok` directory in password-protected zips following the recommendation of the authors. The password is the same as the original EWoK password-protected datasets (i.e., ewok). 
 
-Note: Due to the same reason, only the final files are provided and not the templates created with the tutorial.
-
 **Evaluation**
 
 Same as with the English model, the evaluation is done following the Evaluation Pipeline of the 2024 BabyLM challenge: (https://github.com/babylm/evaluation-pipeline-2024?tab=readme-ov-file)
