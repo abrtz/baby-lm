@@ -21,6 +21,8 @@ The dataset is already cleaned in earlier steps before training. Therefore, it i
 The notebook can be run from the following cell onwards to train the LM:
 `df = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/baby-lm/data/EN_sentences.csv")` 
 
+Model available at: [abritez/baby-lm-en](https://huggingface.co/abritez/baby-lm-en)
+
 ### Evaluation
 
 #### Fill Mask
@@ -63,6 +65,8 @@ Same as with the English model above, the dataset is already cleaned in earlier 
 
 The notebook can be run from the following cell onwards to train the LM:
 `df = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/baby-lm/data/ES_sentences.csv")` 
+
+Model available at: [abritez/baby-lm-es](https://huggingface.co/abritez/baby-lm-es)
 
 ### Evaluation
 
