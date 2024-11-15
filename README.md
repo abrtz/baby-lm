@@ -116,6 +116,8 @@ The results are stored under the `results` directory in the `evaluation-pipeline
 
 ## Error Analysis
 
+The results of both models are moved to a subdirectory called `results` in this main directory. They are hereby provided in a password-protected zip given that they include the content of the datasets. The password is the same as mentioned above.
+
 An error analysis is carried out from the output of each model with `errors_analysis.py` by running it from the terminal in the main directory.
 
 The output of the error analysis is a json file with the errors per category, which can be found in the `/output` directory in password-protected zip (same password as the rest).
