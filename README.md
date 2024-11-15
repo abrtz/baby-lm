@@ -122,4 +122,4 @@ An error analysis is carried out from the output of each model with `errors_anal
 
 `python error_analysis.py`
 
-The output of the error analysis is a json file with the errors per category, which can be found in the `/output` directory in password-protected zip (same password as the rest).
+The output of the error analysis is a json file per language model with the errors per category, which can be found in the `/output` directory in password-protected zip (same password as the rest).
