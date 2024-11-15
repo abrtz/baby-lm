@@ -18,4 +18,7 @@ data/es-ewok/testsuite-social_relaciones.csv
 data/es-ewok/template-material_dinamico.csv  
 data/es-ewok/template-material_propiedades.csv
 data/es-ewok/template-social_relaciones.csv
+error_analysis.ipynb
+output/errors_en.json
+output/errors_es.json
 

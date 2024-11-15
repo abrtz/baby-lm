@@ -114,4 +114,8 @@ The results are stored under the `results` directory in the `evaluation-pipeline
 
 
 
+## Error Analysis
 
+An error analysis is carried out from the output of each model with `errors_analysis.py` by running it from the terminal in the main directory.
+
+The output of the error analysis is a json file with the errors per category, which can be found in the `/output` directory in password-protected zip (same password as the rest).
