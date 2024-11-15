@@ -7,7 +7,8 @@ en_model_folder/
 es_model_folder/
 evaluation-pipeline-2024-main/
 evaluation-pipeline-2024-main-ES/
-results/
+results/blimp
+results/ewok
 ewok-main/
 data/es-ewok/material-dinamico.jsonl
 data/es-ewok/material-propiedades.jsonl
